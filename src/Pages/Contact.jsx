@@ -8,15 +8,15 @@ const Contact = () => {
   const handleSubmit = () => {
     setTimeout(() => {
       setSubmitted(true);
-    }, 100);
+    }, 200);
   };
 
   if (submitted) {
     return (
-      <>
+      <div className="h-screen flex flex-col justify-center items-center text-white">
         <div className="text-2xl">Thank you!</div>
         <div className="text-md">We'll be in touch soon.</div>
-      </>
+      </div>
     );
   }
 
@@ -26,7 +26,7 @@ const Contact = () => {
       items-center justify-center "
     >
       <div className="mb-3 pt-0">
-        <h3 className="text-center text-blue-500 text-lg font-semibold">
+        <h3 className="text-center text-white text-lg font-semibold">
           Contact Us
         </h3>
       </div>

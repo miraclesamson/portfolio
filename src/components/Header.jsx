@@ -12,7 +12,7 @@ export default function Header() {
   }
   return (
     <div className="bg-white border-b shadow-md sticky top-0 z-40 h-11">
-      <header className="flex justify-between items-center px-3 max-w-6xl mx-auto">
+      <header className="flex justify-between items-center px-2 max-w-6xl mx-auto">
         <div>
           <img src={Logo} alt="" className="h-10 cursor-pointer rounded" />
         </div>
@@ -20,19 +20,19 @@ export default function Header() {
           <ul className="flex flex-row space-x-8">
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
-                pathMatchRoute("/about-me") && "text-black border-b-red-500"
+                pathMatchRoute("/") && "text-black border-b-red-500"
               }`}
-              onClick={() => navigate("/about-me")}
+              onClick={() => navigate("/")}
             >
               AboutMe
             </li>
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
-                pathMatchRoute("/skills") && "text-black border-b-red-500"
+                pathMatchRoute("/blogs") && "text-black border-b-red-500"
               }`}
-              onClick={() => navigate("/skills")}
+              onClick={() => navigate("/blogs")}
             >
-              Skills
+              Blogs
             </li>
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
