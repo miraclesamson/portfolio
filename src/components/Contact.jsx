@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="container">
           <h1 className="text-3xl uppercase font-bold">Get in Touch</h1>
           <p className="my-5">
-            {`Need Something? Contact me or you can contact me at the below address`}
+            {`Need Something? Contact me at the below address`}
           </p>
           <div>
             <div className="my-5 flex items-center">

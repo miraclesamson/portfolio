@@ -80,8 +80,8 @@ const About = () => {
         </div>
         <div className=" w-56 h-56 p-4 flex flex-col justify-center items-center">
           <CircularProgressbar
-            value={90}
-            text={`90%`}
+            value={80}
+            text={`80%`}
             styles={buildStyles({
               pathColor: `#0ceb83`,
               textColor: `#0ceb83`,
@@ -102,46 +102,11 @@ const About = () => {
           />
           <h1 className="text-2xl font-bold mt-4">JavaScript</h1>
         </div>
+
         <div className=" w-56 h-56 p-4 flex flex-col justify-center items-center">
           <CircularProgressbar
-            value={50}
-            text={`50%`}
-            styles={buildStyles({
-              pathColor: `#0ceb83`,
-              textColor: `#0ceb83`,
-              trailColor: "#262626",
-            })}
-          />
-          <h1 className="text-2xl font-bold mt-4">NextJS</h1>
-        </div>
-        <div className=" w-56 h-56 p-4 flex flex-col justify-center items-center">
-          <CircularProgressbar
-            value={10}
-            text={`10%`}
-            styles={buildStyles({
-              pathColor: `#db1616`,
-              textColor: `#db1616`,
-              trailColor: "#262626",
-            })}
-          />
-          <h1 className="text-2xl font-bold mt-4">MongoDB</h1>
-        </div>
-        <div className=" w-56 h-56 p-4 flex flex-col justify-center items-center">
-          <CircularProgressbar
-            value={60}
-            text={`60%`}
-            styles={buildStyles({
-              pathColor: `#0ceb83`,
-              textColor: `#0ceb83`,
-              trailColor: "#262626",
-            })}
-          />
-          <h1 className="text-2xl font-bold mt-4">Express JS</h1>
-        </div>
-        <div className=" w-56 h-56 p-4 flex flex-col justify-center items-center">
-          <CircularProgressbar
-            value={85}
-            text={`85%`}
+            value={80}
+            text={`80%`}
             styles={buildStyles({
               pathColor: `#0ceb83`,
               textColor: `#0ceb83`,
