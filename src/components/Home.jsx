@@ -38,7 +38,11 @@ export default function Home() {
               uppercase shadow-2xl  hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg active:bg-blue-800 active:shadow-lg 
               transition duration-150 ease-in-out  text-center items-center px-7 py-3"
             >
-              <a className="button text-white" href={Resume} download={Resume}>
+              <a
+                className="button text-white text no-underline"
+                href={Resume}
+                download={Resume}
+              >
                 Download Resume
               </a>
             </button>
@@ -53,7 +57,7 @@ export default function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/miraclesamson"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-color  home-social-icons"
@@ -63,7 +67,7 @@ export default function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Frontend_samson"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-color  home-social-icons"
@@ -73,7 +77,7 @@ export default function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/miraclesamsono/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-color  home-social-icons"
@@ -83,7 +87,7 @@ export default function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/miracle_samson0"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-color home-social-icons"

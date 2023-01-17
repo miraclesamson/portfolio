@@ -6,7 +6,6 @@ import Logo from "../Images/LOGO.PNG";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -89,16 +88,6 @@ function Header() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="flex justify-center ">
-              <Nav.Link
-                as={Link}
-                to="/Blogs"
-                onClick={() => updateExpanded(false)}
-              >
-                <ImBlog className="" /> Blogs
               </Nav.Link>
             </Nav.Item>
 
